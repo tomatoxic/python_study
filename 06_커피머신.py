@@ -16,3 +16,4 @@ while True:  # 무한 반복
     if coffee == 0:
         print("커피가 다 떨어졌습니다. 판매를 중지 합니다.")
         break
+    
