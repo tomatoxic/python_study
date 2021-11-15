@@ -88,5 +88,5 @@ print(string1)
 print('밴드 이름 만들기 프로그램입니다.')
 city = input('태어난 도시가 어딘가요?\n')
 pet = input('당신의 애완동물은?\n')
-band = print('당신의 밴드 이름은 ' + city + ' ' + pet)
+band = print('당신의 밴드 이름은 ' + city + ' ' + pet) 
 
