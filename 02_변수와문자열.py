@@ -34,3 +34,59 @@ a = input('a : ')
 b = input('b : ')
 print('a : ' + b)
 print('b : ' + a)
+
+
+# 문자열
+# 긴 문자열은 따옴표 3개 (''' 또는 """")
+var3 = '''
+따옴표3개는
+끝나는 문장
+모두를 처리
+-----------
+'''
+print(var3)
+
+# 문자열 연산
+성 = '홍'
+이름 = "길동"
+name = 성 +' '+이름
+print(name)
+
+# 타입 변환 str( ), int( ) , float( ) ...
+
+print(type(int(str(100))))
+a = str(100)
+b = int(a)
+c = type(b)
+print(c)
+
+
+# 예제 1
+# 아래와 같이 출력 되도록 변수 날씨에 이스케이프 문자들을 추가하여 만들어라.
+날씨 = '\tIt\'s "kind of" sunny\nHave a nice Day!'
+print(날씨)
+
+# 예제 2
+# 다음과 같은 문단을 문자열을 값으로 가지는 변수 string1을 선언하세요.
+
+# 다스베이더가 말했다.
+#  "내가 니 애비다!" 
+# 그 말을 들은 루크는 '깜짝' 놀랐다.
+
+# string1을 선언하세요.
+string1 = '''
+다스베이더가 말했다.
+"내가 니 애비다!"
+그 말을 들은 루크는 '깜짝' 놀랐다.
+'''
+print(string1)
+
+
+# 예제 3
+# 밴드 이름 만들기 아래처럼 프로그램을 만듭니다. 아래 깃허브 코드를 참고
+# https://github.com/jbkim08/python_lesson/blob/main/Ex1-2
+print('밴드 이름 만들기 프로그램입니다.')
+city = input('태어난 도시가 어딘가요?\n')
+pet = input('당신의 애완동물은?\n')
+band = print('당신의 밴드 이름은 ' + city + ' ' + pet)
+
