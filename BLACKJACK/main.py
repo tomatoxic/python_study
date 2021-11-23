@@ -76,7 +76,7 @@ def play_game():
         if user_score == 0 or computer_score == 0 or user_score > 21:
             is_game_over = True  # 블랙잭이 나오거나 유저의 점수가 21보다 크면 종료
         else:
-            # 카드를 한장 더 받으면 게임을 계속 진행하고 더이상 카드를 받지 않으면 반복문을 종료한다.
+            # 카드를 한 장 더 받으면 게임을 계속 진행하고 더이상 카드를 받지 않으면 반복문을 종료한다.
             user_should_deal = input(
                 "카드를 한장 더 받겠습니까?  (y/n) : ")
             if user_should_deal == "y":
